@@ -39,6 +39,8 @@ Author(s):
 #include "../../types/inc/utils.hpp"
 #include "../../inc/DefaultSettings.h"
 
+#include <winrt/Windows.ApplicationModel.Resources.Core.h>
+#include "winrt/Windows.UI.Xaml.Markup.h"
 #include <winrt/Windows.system.h>
 #include <winrt/Windows.Foundation.h>
 #include <winrt/Windows.Foundation.Collections.h>
@@ -48,6 +50,8 @@ Author(s):
 #include <winrt/Windows.UI.Xaml.Controls.Primitives.h>
 #include <winrt/Windows.ui.xaml.media.h>
 #include <winrt/Windows.ui.xaml.input.h>
+#include <winrt/Windows.UI.Xaml.Markup.h>
+#include <winrt/Windows.UI.Xaml.Documents.h>
 
 #include <windows.ui.xaml.media.dxinterop.h>
 
@@ -56,3 +60,6 @@ Author(s):
 #include <winrt/Microsoft.Terminal.TerminalConnection.h>
 
 #include <winrt/Microsoft.UI.Xaml.Controls.h>
+
+#include <regex>
+#include <CLI11/CLI11.hpp>
